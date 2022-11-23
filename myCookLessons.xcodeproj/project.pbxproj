@@ -19,8 +19,9 @@
 		DC46214D292D285400F003A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC462140292D285200F003A7 /* Main.storyboard */; };
 		DC46214E292D285400F003A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC462141292D285300F003A7 /* Assets.xcassets */; };
 		DC46214F292D285400F003A7 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC462142292D285300F003A7 /* Meal.swift */; };
-		DC462150292D285400F003A7 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC462143292D285300F003A7 /* MealTableViewCell.swift */; };
+		DC462150292D285400F003A7 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC462143292D285300F003A7 /* Meal.swift */; };
 		DC462151292D285400F003A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC462144292D285400F003A7 /* AppDelegate.swift */; };
+		DC68AF6C292E1E1B0090481C /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC68AF6B292E1E1A0090481C /* MealTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,19 +39,20 @@
 		DC462127292D247700F003A7 /* myCookLessonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myCookLessonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC46212B292D247700F003A7 /* myCookLessonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCookLessonsTests.swift; sourceTree = "<group>"; };
 		DC462136292D284E00F003A7 /* myCookLessons-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myCookLessons-Bridging-Header.h"; sourceTree = "<group>"; };
-		DC462137292D284E00F003A7 /* MealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealViewController.swift; path = ../myFoods4/myFoods4/MealViewController.swift; sourceTree = "<group>"; };
-		DC462138292D284F00F003A7 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = ../myFoods4/myFoods4/Base.lproj; sourceTree = "<group>"; };
-		DC462139292D284F00F003A7 /* Homemodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Homemodel.swift; path = ../myFoods4/myFoods4/Homemodel.swift; sourceTree = "<group>"; };
-		DC46213B292D285100F003A7 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = ../myFoods4/myFoods4/RatingControl.swift; sourceTree = "<group>"; };
-		DC46213C292D285100F003A7 /* WebMealModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebMealModel.swift; path = ../myFoods4/myFoods4/WebMealModel.swift; sourceTree = "<group>"; };
-		DC46213D292D285200F003A7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../myFoods4/myFoods4/ViewController.swift; sourceTree = "<group>"; };
-		DC46213E292D285200F003A7 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealTableViewController.swift; path = ../myFoods4/myFoods4/MealTableViewController.swift; sourceTree = "<group>"; };
-		DC46213F292D285200F003A7 /* selectUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = selectUser.swift; path = ../myFoods4/myFoods4/selectUser.swift; sourceTree = "<group>"; };
-		DC462140292D285200F003A7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../myFoods4/myFoods4/Main.storyboard; sourceTree = "<group>"; };
-		DC462141292D285300F003A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../myFoods4/myFoods4/Assets.xcassets; sourceTree = "<group>"; };
-		DC462142292D285300F003A7 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Meal.swift; path = ../myFoods4/myFoods4/Meal.swift; sourceTree = "<group>"; };
-		DC462143292D285300F003A7 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealTableViewCell.swift; path = ../myFoods4/myFoods4/MealTableViewCell.swift; sourceTree = "<group>"; };
-		DC462144292D285400F003A7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../myFoods4/myFoods4/AppDelegate.swift; sourceTree = "<group>"; };
+		DC462137292D284E00F003A7 /* MealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealViewController.swift; path = myCookLessons/MealViewController.swift; sourceTree = "<group>"; };
+		DC462138292D284F00F003A7 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = myCookLessons/Base.lproj; sourceTree = "<group>"; };
+		DC462139292D284F00F003A7 /* Homemodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Homemodel.swift; path = myCookLessons/Homemodel.swift; sourceTree = "<group>"; };
+		DC46213B292D285100F003A7 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = myCookLessons/RatingControl.swift; sourceTree = "<group>"; };
+		DC46213C292D285100F003A7 /* WebMealModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebMealModel.swift; path = myCookLessons/WebMealModel.swift; sourceTree = "<group>"; };
+		DC46213D292D285200F003A7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = myCookLessons/ViewController.swift; sourceTree = "<group>"; };
+		DC46213E292D285200F003A7 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealTableViewController.swift; path = myCookLessons/MealTableViewController.swift; sourceTree = "<group>"; };
+		DC46213F292D285200F003A7 /* selectUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = selectUser.swift; path = myCookLessons/selectUser.swift; sourceTree = "<group>"; };
+		DC462140292D285200F003A7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = myCookLessons/Main.storyboard; sourceTree = "<group>"; };
+		DC462141292D285300F003A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = myCookLessons/Assets.xcassets; sourceTree = "<group>"; };
+		DC462142292D285300F003A7 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Meal.swift; path = myCookLessons/Meal.swift; sourceTree = "<group>"; };
+		DC462143292D285300F003A7 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Meal.swift; path = myCookLessons/Meal.swift; sourceTree = "<group>"; };
+		DC462144292D285400F003A7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = myCookLessons/AppDelegate.swift; sourceTree = "<group>"; };
+		DC68AF6B292E1E1A0090481C /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealTableViewCell.swift; path = myCookLessons/MealTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,13 +76,14 @@
 		DC46210A292D247300F003A7 = {
 			isa = PBXGroup;
 			children = (
+				DC68AF6B292E1E1A0090481C /* MealTableViewCell.swift */,
 				DC462144292D285400F003A7 /* AppDelegate.swift */,
 				DC462141292D285300F003A7 /* Assets.xcassets */,
 				DC462138292D284F00F003A7 /* Base.lproj */,
 				DC462139292D284F00F003A7 /* Homemodel.swift */,
 				DC462140292D285200F003A7 /* Main.storyboard */,
 				DC462142292D285300F003A7 /* Meal.swift */,
-				DC462143292D285300F003A7 /* MealTableViewCell.swift */,
+				DC462143292D285300F003A7 /* Meal.swift */,
 				DC46213E292D285200F003A7 /* MealTableViewController.swift */,
 				DC462137292D284E00F003A7 /* MealViewController.swift */,
 				DC46213B292D285100F003A7 /* RatingControl.swift */,
@@ -213,11 +216,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC46214A292D285400F003A7 /* ViewController.swift in Sources */,
+				DC68AF6C292E1E1B0090481C /* MealTableViewCell.swift in Sources */,
 				DC46214C292D285400F003A7 /* selectUser.swift in Sources */,
 				DC462147292D285400F003A7 /* Homemodel.swift in Sources */,
 				DC462148292D285400F003A7 /* RatingControl.swift in Sources */,
 				DC46214F292D285400F003A7 /* Meal.swift in Sources */,
-				DC462150292D285400F003A7 /* MealTableViewCell.swift in Sources */,
+				DC462150292D285400F003A7 /* Meal.swift in Sources */,
 				DC462145292D285400F003A7 /* MealViewController.swift in Sources */,
 				DC46214B292D285400F003A7 /* MealTableViewController.swift in Sources */,
 				DC462151292D285400F003A7 /* AppDelegate.swift in Sources */,
